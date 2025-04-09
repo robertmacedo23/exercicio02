@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script> alert ("Olá, vou te fazer algumas perguntas")
+        
+       var confirmacao = confirm ("você deseja participar?");
+       if(confirmacao){
+        console.log ("voce clicou em ok");
+       }
+       else {
+        console.log("você clicou em cancelar");
+       }
+       var nome = prompt ("digite o seu nome: ");
+       alert ("Olá "+ nome+"! Bem vindo ao JavaScript");
+       document.write (`<h1> ${nome}<\h1>`);
+       var idade = prompt ("digite a sua idade: ");
+       document.write (`<h2>${idade}<\h2>`);
+        var cidade =prompt ("Qual é a sua cidade? ")
+        document.write (`<h3>${cidade}<\h3>`);
+        var salario =prompt ("Digite o seu salário: ")
+        document.write (`<h4>${salario}<\h4>`);
+
+
+    </script>
+    <h1>Exercitando Variáveis</h1>
+    
+</body>
+</html>
